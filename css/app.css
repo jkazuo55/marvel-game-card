@@ -1,14 +1,1 @@
-body {
-	font-family: Arial;
-	font-size: 16px;
-}
-
-.Card{
-	width: 200px;
-	background: #C2AC37;
-	border:5px solid gray;
-	border-radius: .5em;
-}
-.Card-image{
-	width: 100%;
-}
+body{font-family:Arial;font-size:16px}.Card{width:300px;background:#c2ac37;border5px:solid #808080;border-radius:.5em;}.Card-description{background:#fff;padding:.5em;font-size:12px}.Card-image{width:100%}
