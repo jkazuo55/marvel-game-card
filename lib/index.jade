@@ -5,13 +5,15 @@ head
 	title marvel Game Card
 	link(rel="stylesheet",type="text/css",href="./public/css/app.css")
 body
-	h1 Marvel Game Card
-	include ./card/template.jade
-
+	
 	section(class="Layout")
-		section(class="Layout-angonist") angonist
+		section(class="Layout-angonist") 
+			each card in [1,2,3,4,5]
+				include ./card/template.jade
 		section(class="Layout-main")
 			div(class="Layout-status") status
-			div(class="Layout-batalla") battle
+			div(class="Layout-battle") battle
 			div(class="Layout-phases") phases
-		section(class="Layout-player") player
+		section(class="Layout-player")
+			each card in [1,2,3,4,5]
+				include ./card/template.jade
